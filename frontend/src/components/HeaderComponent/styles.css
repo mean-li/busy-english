@@ -1,0 +1,45 @@
+.headerContainer{
+  background-color: rgba(149, 214, 220, 0.858);
+  height: 5rem;
+  width: 100%;
+  position: fixed;
+}
+
+.header{
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  height: inherit;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.logo{
+  color: black;
+  font-weight: 700;
+}
+
+.logo:hover{
+  color: rgb(6, 52, 55);
+  transition: color 0.35s;
+}
+
+.headerNav{
+  display: inline;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 400;
+}
+
+ul {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+ul a:hover {
+  color: rgb(0, 119, 129);
+  transition: color 0.35s;
+}
