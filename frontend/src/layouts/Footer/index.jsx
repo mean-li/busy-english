@@ -1,5 +1,3 @@
-import './styles.css'
-
 import { BsInstagram } from 'react-icons/bs'
 import { BsYoutube } from 'react-icons/bs'
 import { BsTwitter } from 'react-icons/bs'
