@@ -1,10 +1,12 @@
-import Footer from './components/FooterComponent'
-import Header from './components/HeaderComponent'
+import Footer from './layouts/Footer'
+import Header from './layouts/Header'
+import SiteRoutes from './routes'
 
 function App() {
   return (
     <>
       <Header />
+      <SiteRoutes />
       <Footer />
     </>
   )
