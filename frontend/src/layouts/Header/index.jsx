@@ -13,7 +13,7 @@ function Header() {
               <li className="nav-item">
                 <a
                   href="/"
-                  className="nav-link link-success text-dark fw-semibold"
+                  className="nav-link link-secondary text-dark fw-semibold"
                   aria-current="page"
                 >
                   Home
@@ -22,7 +22,7 @@ function Header() {
               <li className="nav-item">
                 <a
                   href="/about"
-                  className="nav-link link-success text-dark fw-semibold"
+                  className="nav-link link-secondary text-dark fw-semibold"
                   aria-current="page"
                 >
                   About
@@ -31,7 +31,7 @@ function Header() {
               <li className="nav-item">
                 <a
                   href="/blog"
-                  className="nav-link link-success text-dark fw-semibold"
+                  className="nav-link link-secondary text-dark fw-semibold"
                   aria-current="page"
                 >
                   Blog
@@ -40,7 +40,7 @@ function Header() {
               <li className="nav-item">
                 <a
                   href="/newsletter"
-                  className="nav-link link-success text-dark fw-semibold"
+                  className="nav-link link-secondary text-dark fw-semibold"
                   aria-current="page"
                 >
                   Newsletter
