@@ -3,14 +3,14 @@ function Header() {
     <>
       <header className="fixed-top bg-white text-dark rounded-0 p-3 m-0">
         <div className="navbar">
-          <a href="/" className="nav-item">
+          <a href="#home" className="nav-item">
             <span className="text-dark navbar-brand mb-0 h1 fs-3">
               BusyEnglish
             </span>
           </a>
           <nav className="navbar">
             <ul className="nav justify-content-end">
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a
                   href="/"
                   className="nav-link link-secondary text-dark fw-semibold"
@@ -18,32 +18,14 @@ function Header() {
                 >
                   Home
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a
-                  href="/about"
+                  href="#about"
                   className="nav-link link-secondary text-dark fw-semibold"
                   aria-current="page"
                 >
                   About
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  href="/blog"
-                  className="nav-link link-secondary text-dark fw-semibold"
-                  aria-current="page"
-                >
-                  Blog
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  href="/newsletter"
-                  className="nav-link link-secondary text-dark fw-semibold"
-                  aria-current="page"
-                >
-                  Newsletter
                 </a>
               </li>
             </ul>
