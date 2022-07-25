@@ -7,7 +7,7 @@ function Home() {
       className="bg-primary p-2 text-dark bg-opacity-25 mt-5 p-5 d-flex "
     >
       {/* a div abaixo é da caixa sem background */}
-      <div className="container d-flex align-items-center justify-content-center flex-row m-5 p-3">
+      <div className="container d-flex align-items-center justify-content-center flex-row p-5 ms-5 me-5">
         {/* a div abaixo é dos textos e botão */}
         <div className="d-flex flex-column me-2">
           <div className="d-flex justify-content-start flex-column">
