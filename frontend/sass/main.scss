@@ -1,13 +1,13 @@
 //custom variables
-$primary: #86deaf;
-$secondary: #446d2d;
+$primary: #5fc8e6;
+$secondary: #FF4891;
 
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 
 //custom map
 $custom-theme-colors: (
-  "light-secondary": #98bd82,
+  "light-secondary": #f288b2,
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);

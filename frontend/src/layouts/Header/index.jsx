@@ -10,15 +10,6 @@ function Header() {
           </a>
           <nav className="navbar">
             <ul className="nav justify-content-end">
-              {/* <li className="nav-item">
-                <a
-                  href="/"
-                  className="nav-link link-secondary text-dark fw-semibold"
-                  aria-current="page"
-                >
-                  Home
-                </a>
-              </li> */}
               <li className="nav-item">
                 <a
                   href="#about"
