@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: Inter, FiraMono, sans-serif;
+}
+
+body{
+  background-color: #FFF8F8;
+}
 
 ul {
   list-style: none;
@@ -9,7 +17,7 @@ a {
 }
 
 /* Custom */
-
+/* Home main container */
 .container-responsivo {
   flex-flow: row nowrap;    
 }
@@ -41,4 +49,24 @@ a {
 .meanli{
   height: 5px;
   margin-top: 5px;
+}
+/* Navbar adjust */
+.header {
+  margin-bottom: 2rem;
+  padding-right: 5.5rem;
+  padding-left: 5.5rem;
+}
+
+.mb-cleaner{
+  margin-bottom: 0 !important;
+}
+
+.custom-font{
+  font-size: .93rem !important;
+  font-weight: 500;
+}
+
+/* divider */
+.divider {
+  margin: 11.1rem;
 }

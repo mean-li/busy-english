@@ -1,11 +1,12 @@
 function Header() {
   return (
     <>
-      <header className="fixed-top bg-white text-dark rounded-0 p-3 m-0">
+      <header className="header fixed-top bg-red-white">
         <div className="navbar">
-          <a href="#home" className="nav-item">
-            <span className="text-dark navbar-brand mb-0 h1 fs-3">
-              BusyEnglish
+          <a href="#home" className="d-flex flex-column">
+            <span className="mb-cleaner text-dark h1 fs-3 fw-bold">BUSY</span>
+            <span className="mb-cleaner text-dark h1 fs-3 fw-bold">
+              ENGLISH
             </span>
           </a>
           <nav className="navbar">
@@ -13,7 +14,7 @@ function Header() {
               <li className="nav-item">
                 <a
                   href="#about"
-                  className="nav-link link-secondary text-dark fw-semibold"
+                  className="link-secondary text-dark custom-font"
                   aria-current="page"
                 >
                   About
@@ -23,7 +24,7 @@ function Header() {
           </nav>
         </div>
       </header>
-      <section className="p-2 m-5"></section>
+      <section className="divider"></section>
     </>
   )
 }

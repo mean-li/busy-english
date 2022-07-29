@@ -2,10 +2,7 @@ import CallButton from '../components/CallButton'
 
 function Home() {
   return (
-    <section
-      id="home"
-      className="bg-primary p-2 text-dark bg-opacity-25 mt-5 p-5 d-flex "
-    >
+    <section id="home" className="bg-primary text-dark p-5 d-flex ">
       {/* a div abaixo é da caixa sem background */}
       <div className="container d-flex align-items-center justify-content-center p-5 ms-5 me-5 container-responsivo">
         {/* a div abaixo é dos textos e botão */}

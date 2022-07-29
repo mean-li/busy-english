@@ -1,5 +1,5 @@
 //custom variables
-$primary: #5fc8e6;
+$primary: #F0F5FF;
 $secondary: #FF4891;
 
 @import "../node_modules/bootstrap/scss/functions";
@@ -7,7 +7,8 @@ $secondary: #FF4891;
 
 //custom map
 $custom-theme-colors: (
-  "light-secondary": #f288b2,
+  "light-secondary": #FFE0E4,
+  "red-white": #FFF8F8,
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
