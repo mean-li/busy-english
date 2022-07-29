@@ -17,20 +17,6 @@ a {
 }
 
 /* Custom */
-/* Home main container */
-.container-responsivo {
-  flex-flow: row nowrap;    
-}
-
-@media only screen and (max-width: 768px) {
-   .container-responsivo {
-      flex-flow: column nowrap;    
-   }
-
-   .p-5 {
-      padding: 0 !important;
-   }
-};
 
 /* Navbar adjust */
 .header {
@@ -52,3 +38,74 @@ a {
 .divider {
   margin: 11.1rem;
 }
+
+/* home/epic styles */
+.container{
+  margin-left: 11rem !important;
+  margin-right: 11rem !important;
+}
+
+.text-area{
+  gap: 1.6rem !important;
+}
+
+.title{
+  font-size: 3.5rem !important;
+  font-weight: 600;
+  margin-right: 8rem !important;
+  margin-bottom: 1.6rem !important;
+  line-height: 1;
+}
+
+.subtitle{
+  font-size: 1.75rem !important;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.custom-buttom-1{
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 6.25rem !important;
+  padding: .8rem !important;
+}
+
+
+.custom-buttom-1:hover{
+  color: white;
+  background-color: #DE2871
+}
+
+.custom-buttom-2{
+  color: #FF4891;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 6.25rem !important;
+  padding: .8rem !important;
+}
+
+.custom-buttom-2:hover{
+  color: #FF4891;
+  background-color: #fde6ea;
+}
+
+.home-image{
+  width: 30.8rem;
+}
+
+/* Home main container */
+.container-responsivo {
+  flex-flow: row nowrap;    
+}
+
+@media only screen and (max-width: 768px) {
+   .container-responsivo {
+      flex-flow: column nowrap;    
+   }
+
+   .p-5 {
+      padding: 0 !important;
+   }
+};
+

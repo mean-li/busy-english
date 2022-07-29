@@ -1,8 +1,8 @@
 function CallButton() {
   return (
-    <a href="#" className="btn btn-secondary">
+    <button href="#" className="custom-buttom-1 btn btn-secondary">
       Agende uma conversa
-    </a>
+    </button>
   )
 }
 
