@@ -1,0 +1,15 @@
+/* Navbar adjust */
+.header {
+  margin-bottom: 2rem;
+  padding-right: 5.5rem;
+  padding-left: 5.5rem;
+}
+
+.mb-cleaner{
+  margin-bottom: 0 !important;
+}
+
+.custom-font{
+  font-size: .93rem !important;
+  font-weight: 500;
+}

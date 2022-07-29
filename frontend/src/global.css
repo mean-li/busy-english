@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: Inter, FiraMono, sans-serif;
+}
+
+body{
+  background-color: #FFF8F8;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom */
+/* divider */
+.divider {
+  margin: 11.6rem;
+}

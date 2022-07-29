@@ -1,4 +1,5 @@
 import CallButton from '../components/CallButton'
+import '../assets/styles/home.css'
 
 function Home() {
   return (
