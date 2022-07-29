@@ -4,38 +4,44 @@ import { BsTwitter } from 'react-icons/bs'
 
 function Footer() {
   return (
-    <div className="">
-      <div className="container d-flex align-items-center justify-content-center gap-3">
+    <div className=" fix-spacing custom-border">
+      <div className='fix-margin'>
+      </div>
+      <div className="container d-flex align-items-center justify-content-center gap-5 fix-spacing">
+        <a className="footer"> </a> 
         <a
-          href="/Press"
+          href="/PRESS"
           className="nav-link link-secondary text-dark fw-semibold text-sm-center "
         >
-          Press
+          PRESS
         </a>
 
         <a
-          href="/Contact"
+          href="/CONTACT"
           className="nav-link link-secondary text-dark fw-semibold text-sm-center"
         >
-          Contact
+          CONTACT
         </a>
 
         <a
-          href="/Book a Call"
+          href="/BOOK A CALL"
           className="nav-link link-secondary text-dark fw-semibold text-sm-center"
         >
-          Book a Call
+          BOOK A CALL
         </a>
 
         <a
-          href="/Suport me"
+          href="/SUPORT ME"
           className="nav-link link-secondary text-dark fw-semibold text-sm-center"
         >
-          Suport me
+          SUPORT ME
         </a>
+
+
       </div>
-      <div className="container d-flex align-items-center justify-content-center gap-4">
-        <a href="/Instagram">
+      <div className="container d-flex align-items-center justify-content-center gap-4 fix-spacing">
+      <a className="contact"> </a>
+             <a href="/Instagram">
           <BsInstagram
             className="text-dark link-secondary"
             alt="logo instagram"
@@ -59,12 +65,16 @@ function Footer() {
             color="#000000"
           />
         </a>
+
+        <a className="social"> </a> 
       </div>
+
       <div>
         <p className="footer_copyright text-center fw-normal">
           {' '}
           © mean.li | 2022
         </p>
+        <p className="meanli"> </p>
       </div>
     </div>
   )
