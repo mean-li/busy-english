@@ -3,7 +3,10 @@ import '../assets/styles/home.css'
 
 function Home() {
   return (
-    <section id="home" className="bg-primary text-dark p-5 d-flex ">
+    <section
+      id="home"
+      className="bg-primary text-dark p-5 d-flex caixa-responsiva align-items-center"
+    >
       {/* a div abaixo é da caixa sem background */}
       <div className="d-flex align-items-center justify-content-center container container-responsivo">
         {/* a div abaixo é dos textos e botão */}
@@ -18,7 +21,7 @@ function Home() {
               methods.
             </h2>
           </div>
-          <div className="d-flex justify-content-center flex-column gap-4">
+          <div className="d-flex justify-content-center flex-column gap-4 button-area">
             <CallButton />
             <button
               href="/about"
@@ -29,7 +32,7 @@ function Home() {
           </div>
         </div>
         {/* a div abaixo é da imagem */}
-        <div className="ms-3">
+        <div className="ms-3 home-image-container">
           <img
             className="home-image"
             src="https://i0.wp.com/lindiebotes.com/wp-content/uploads/2022/06/Screenshot-2022-05-31-at-8.20.33-PM-1.png?resize=916%2C1024&ssl=1"

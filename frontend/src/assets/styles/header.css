@@ -5,11 +5,17 @@
   padding-left: 5.5rem;
 }
 
-.mb-cleaner{
+.mb-cleaner {
   margin-bottom: 0 !important;
 }
 
-.custom-font{
-  font-size: .93rem !important;
+.custom-font {
+  font-size: 0.93rem !important;
   font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+  }
 }

@@ -4,8 +4,8 @@
   font-family: Inter, FiraMono, sans-serif;
 }
 
-body{
-  background-color: #FFF8F8;
+body {
+  background-color: #fff8f8;
 }
 
 ul {
@@ -20,4 +20,10 @@ a {
 /* divider */
 .divider {
   margin: 11.6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .divider {
+    margin: 5.5rem;
+  }
 }

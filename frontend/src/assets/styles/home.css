@@ -1,69 +1,100 @@
 /* home/epic styles */
-.container{
-  margin-left: 11rem !important;
-  margin-right: 11rem !important;
+.container {
+  margin: auto;
+  width: 70%;
 }
 
-.text-area{
+.text-area {
   gap: 1.6rem !important;
+  /* talvez n precise dessa width */
+  width: 100%;
 }
 
-.title{
+.title {
   font-size: 3.5rem !important;
   font-weight: 600;
-  margin-right: 8rem !important;
   margin-bottom: 1.6rem !important;
   line-height: 1;
 }
 
-.subtitle{
+.subtitle {
   font-size: 1.75rem !important;
   font-weight: 400;
   text-align: justify;
 }
 
-.custom-buttom-1{
+.custom-buttom-1 {
   color: white;
   font-weight: 600;
   letter-spacing: 0.5px;
   border-radius: 6.25rem !important;
-  padding: .8rem !important;
+  padding-top: 0.65rem !important;
+  padding-bottom: 0.65rem !important;
 }
 
-
-.custom-buttom-1:hover{
+.custom-buttom-1:hover {
   color: white;
-  background-color: #DE2871
+  background-color: #de2871;
 }
 
-.custom-buttom-2{
-  color: #FF4891;
+.custom-buttom-2 {
+  color: #ff4891;
   font-weight: 600;
   letter-spacing: 0.5px;
   border-radius: 6.25rem !important;
-  padding: .8rem !important;
+  padding-top: 0.65rem !important;
+  padding-bottom: 0.65rem !important;
 }
 
-.custom-buttom-2:hover{
-  color: #FF4891;
+.custom-buttom-2:hover {
+  color: #ff4891;
   background-color: #fde6ea;
 }
 
-.home-image{
-  width: 30.8rem;
+.home-image {
+  display: block;
+  width: 100%;
 }
 
 /* Home main container */
 .container-responsivo {
-  flex-flow: row nowrap;    
+  flex-flow: row nowrap;
 }
 
 @media only screen and (max-width: 768px) {
-   .container-responsivo {
-      flex-flow: column nowrap;    
-    }
-    
-   .p-5 {
-      padding: 0 !important;
-   }
-};
+  .p-5 {
+    padding: 1.5rem !important;
+  }
+  .container-responsivo {
+    flex-flow: column nowrap;
+    width: 100%;
+  }
+  .caixa-responsiva {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+    width: 100%;
+  }
+  .text-area {
+    margin-right: 0 !important;
+    gap: 1.6rem !important;
+  }
+  .title {
+    font-size: 1.875rem !important;
+    font-weight: 600;
+    line-height: 1em;
+  }
+  .subtitle {
+    font-size: 1.0625rem !important;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.3em;
+    letter-spacing: 0.5px;
+    margin-bottom: 0 !important;
+  }
+  .home-image-container {
+    margin-left: 0 !important;
+  }
+  .home-image {
+    padding-top: 1.85rem !important;
+  }
+}
