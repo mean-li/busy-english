@@ -18,6 +18,24 @@ a {
 
 /* Custom */
 
+/*padding */
+
+
+.custom-border{
+  border-top: 1px solid black;
+}
+
+.fix-margin{
+  margin-top: 2rem;
+}
+.fix-spacing{
+  margin-bottom: 1.75rem;
+}
+
+.meanli{
+  height: 5px;
+  margin-top: 5px;
+}
 /* Navbar adjust */
 .header {
   margin-bottom: 2rem;
