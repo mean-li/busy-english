@@ -1,6 +1,6 @@
 //custom variables
-$primary: #F0F5FF;
-$secondary: #FF4891;
+$primary: #d8f6f6;
+$secondary: #518174;
 $dark: #000000;
 
 @import "../node_modules/bootstrap/scss/functions";
@@ -8,9 +8,16 @@ $dark: #000000;
 
 //custom map
 $custom-theme-colors: (
-  "light-secondary": #FFE0E4,
-  "red-white": #FFF8F8,
-  "dark-secondary":#DE2871
+  "light-secondary": #84c1b1,
+  "light-button": #97d7c6,
+  "green-light-bg": #a7e0d1,
+  "dark-secondary": #376256,
+
+  "lindies-primary": #F0F5FF,
+  "lindies-light-secondary": #FFE0E4,
+  "lindies-red-white": #FFF8F8,
+  "lindies-dark-secondary":#DE2871,
+  "lindies-secondary": #FF4891,
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);

@@ -5,9 +5,9 @@ import '../../assets/styles/footer.css'
 
 function Footer() {
   return (
-    <div className="fix-spacing custom-border">
+    <div className="footer flexfix-spacing custom-border">
       <div className="fix-margin"></div>
-      <div className="d-flex align-items-center justify-content-center gap-5 fix-spacing">
+      <div className="footer-responsivo d-flex align-items-center justify-content-center gap-5 fix-spacing">
         <a className="footer"> </a>
         <a
           href="/PRESS"

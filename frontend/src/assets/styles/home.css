@@ -33,22 +33,26 @@
 }
 
 .custom-buttom-1:hover {
-  color: white;
-  background-color: #de2871;
+  color: rgb(247, 255, 254);
+  background-color: #457266;
+  transition: background-color 0.25s;
 }
 
 .custom-buttom-2 {
-  color: #ff4891;
+  color: #2f574c;
   font-weight: 600;
   letter-spacing: 0.5px;
   border-radius: 6.25rem !important;
   padding-top: 0.65rem !important;
   padding-bottom: 0.65rem !important;
+  border-color: #84c1b1;
 }
 
 .custom-buttom-2:hover {
-  color: #ff4891;
-  background-color: #fde6ea;
+  color: #2f574c;
+  background-color: #97d7c6;
+  transition: background-color 0.25s;
+  border-color: #ade4d6;
 }
 
 .home-image {
