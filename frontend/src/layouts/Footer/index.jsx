@@ -39,7 +39,7 @@ function Footer() {
       </div>
       <div className="d-flex align-items-center justify-content-center gap-4 fix-spacing">
         <a className="contact"> </a>
-        <a href="/Instagram">
+        <a href="https://www.instagram.com/_colapse/">
           <BsInstagram
             className="text-dark link-secondary"
             alt="logo instagram"

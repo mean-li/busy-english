@@ -17,5 +17,11 @@
 @media only screen and (max-width: 768px) {
   .header {
     width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .logo {
+    font-size: 1.3rem !important;
   }
 }

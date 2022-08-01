@@ -69,6 +69,9 @@
   .p-5 {
     padding: 1.5rem !important;
   }
+  .container {
+    --bs-gutter-x: 0;
+  }
   .container-responsivo {
     flex-flow: column nowrap;
     width: 100%;
