@@ -10,14 +10,14 @@ function Header() {
     <>
       <header className="header fixed-top bg-white">
         <div className="navbar">
-          <a href="/" className="d-flex flex-column">
-            <span className="mb-cleaner text-dark h1 fs-3 fw-bold logo">
-              BUSY
-              <br />
-              ENGLISH
-            </span>
-          </a>
           <nav className="navbar navigation">
+            <a href="/" className="d-flex flex-column">
+              <span className="mb-cleaner text-dark h1 fs-3 fw-bold logo">
+                BUSY
+                <br />
+                ENGLISH
+              </span>
+            </a>
             <button
               className="hamburger"
               onClick={() => {

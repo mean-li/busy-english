@@ -15,7 +15,14 @@
 }
 
 .navigation-menu {
-  margin-left: auto;
+  margin-left: auto !important;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .hamburger {
@@ -35,7 +42,6 @@
     width: 100%;
     padding-right: 2rem;
     padding-left: 2rem;
-    position: fixed;
   }
 
   .logo {
@@ -45,16 +51,15 @@
   .navigation {
     width: 100%;
     color: black;
-    position: absolute;
     margin: 0 !important;
   }
 
   .hamburger {
     display: flex;
     position: relative;
-    top: 1.11rem;
     align-items: center;
-    left: 19.8rem !important;
+    left: 14.2rem; /* não posso usar isso */
+    top: 1.25rem; /* não posso usar isso */
   }
   .navigation-menu ul {
     position: absolute;
@@ -67,27 +72,33 @@
     display: none;
     padding: 1rem;
   }
-  .navigation-menu li {
-    text-align: center;
-    margin: 0;
-    padding: 1rem;
-  }
+
   .responsive-custom-font {
     font-size: 1.2rem !important;
     font-weight: 500 !important;
     padding: 0 !important;
   }
+  .navigation-menu ul {
+    position: absolute;
+    flex-direction: column;
+    width: 100vw;
+    margin-left: -2rem;
+    height: calc(100vh - 2rem);
+    background-color: white;
+  }
+  .navigation-menu li {
+    text-align: center;
+    margin: 0;
+  }
   .navigation-menu li a {
+    color: black;
     width: 100%;
     padding: 1.5rem 0;
-    font-size: 9rem;
-    font-weight: 600;
   }
   .navigation-menu li:hover {
     background-color: #eee;
   }
   .navigation-menu.expanded ul {
     display: block;
-    background-color: white;
   }
 }
