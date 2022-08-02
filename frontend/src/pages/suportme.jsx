@@ -1,4 +1,4 @@
-function Blog() {
+function SuportMe() {
   return (
     <>
       <h2>Tem um blog aqui!</h2>
@@ -7,4 +7,4 @@ function Blog() {
   )
 }
 
-export default Blog
+export default SuportMe

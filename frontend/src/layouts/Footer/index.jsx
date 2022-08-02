@@ -10,36 +10,30 @@ function Footer() {
       <div className="footer-responsivo d-flex align-items-center justify-content-center gap-5 fix-spacing">
         <a className="footer"> </a>
         <a
-          href="/PRESS"
-          className="nav-link link-secondary text-dark fw-semibold text-sm-center "
-        >
-          PRESS
-        </a>
-
-        <a
           href="/CONTACT"
+          target="_blank"
           className="nav-link link-secondary text-dark fw-semibold text-sm-center"
         >
           CONTACT
         </a>
 
         <a
-          href="/BOOK A CALL"
+          href="https://calendly.com/nicoletongu"
+          target="_blank"
           className="nav-link link-secondary text-dark fw-semibold text-sm-center"
         >
           BOOK A CALL
         </a>
-
         <a
           href="/SUPORT ME"
+          target="_blank"
           className="nav-link link-secondary text-dark fw-semibold text-sm-center"
         >
           SUPORT ME
         </a>
       </div>
       <div className="d-flex align-items-center justify-content-center gap-4 fix-spacing">
-        <a className="contact"> </a>
-        <a href="https://www.instagram.com/_colapse/">
+        <a href="https://www.instagram.com/_colapse/" target="_blank">
           <BsInstagram
             className="text-dark link-secondary"
             alt="logo instagram"
@@ -47,7 +41,7 @@ function Footer() {
             color="#000000"
           />
         </a>
-        <a href="/twitter">
+        <a href="/twitter" target="_blank">
           <BsTwitter
             className="text-dark link-secondary"
             alt="logo twitter"
