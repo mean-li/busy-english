@@ -34,8 +34,8 @@ function Home() {
         {/* a div abaixo é da imagem */}
         <div className="ms-3 home-image-container">
           <img
+            src="src/assets/images/home_nicole_pic.jpeg"
             className="home-image"
-            src="https://i0.wp.com/lindiebotes.com/wp-content/uploads/2022/06/Screenshot-2022-05-31-at-8.20.33-PM-1.png?resize=916%2C1024&ssl=1"
           ></img>
         </div>
       </div>

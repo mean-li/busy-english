@@ -1,6 +1,6 @@
 //custom variables
-$primary: #d8f6f6;
-$secondary: #518174;
+$primary: #d0eefe;
+$secondary: #b16585;
 $dark: #000000;
 
 @import "../node_modules/bootstrap/scss/functions";
@@ -8,10 +8,17 @@ $dark: #000000;
 
 //custom map
 $custom-theme-colors: (
-  "light-secondary": #84c1b1,
-  "light-button": #97d7c6,
+  "light-secondary": #e699b9,
+  "dark-secondary": #884862,
+  "light-button": #eba5c3,
+  "light-bg": #fbbcd8,
+
+  "green-primary": #d8f6f6,
+  "green-secondary": #518174,
+  "green-light-secondary": #84c1b1,
+  "green-light-button": #97d7c6,
   "green-light-bg": #a7e0d1,
-  "dark-secondary": #376256,
+  "green-dark-secondary": #376256,
 
   "lindies-primary": #F0F5FF,
   "lindies-light-secondary": #FFE0E4,

@@ -34,30 +34,30 @@
 
 .custom-buttom-1:hover {
   color: rgb(247, 255, 254);
-  background-color: #457266;
+  background-color: #884862;
   transition: background-color 0.25s;
 }
 
 .custom-buttom-2 {
-  color: #2f574c;
+  color: #361a26;
   font-weight: 600;
   letter-spacing: 0.5px;
   border-radius: 6.25rem !important;
   padding-top: 0.65rem !important;
   padding-bottom: 0.65rem !important;
-  border-color: #84c1b1;
+  border-color: #eba5c3;
 }
 
 .custom-buttom-2:hover {
-  color: #2f574c;
-  background-color: #97d7c6;
+  color: #562f40;
+  background-color: #eeabc8;
   transition: background-color 0.25s;
-  border-color: #ade4d6;
+  border-color: #eba5c3;
 }
 
 .home-image {
   display: block;
-  width: 100%;
+  width: 90%;
 }
 
 /* Home main container */
@@ -103,5 +103,6 @@
   }
   .home-image {
     padding-top: 1.85rem !important;
+    width: 88vw;
   }
 }
