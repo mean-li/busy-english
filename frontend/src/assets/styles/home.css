@@ -55,9 +55,21 @@
   border-color: #eba5c3;
 }
 
+.button-link {
+  outline: none;
+  color: inherit;
+  text-decoration: none;
+}
+
+.button-link:hover {
+  outline: none;
+  color: inherit;
+  text-decoration: none;
+}
+
 .home-image {
   display: block;
-  width: 90%;
+  width: 100%;
 }
 
 /* Home main container */
@@ -103,6 +115,5 @@
   }
   .home-image {
     padding-top: 1.85rem !important;
-    width: 88vw;
   }
 }
