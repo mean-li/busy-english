@@ -60,6 +60,18 @@ function Header() {
                     Classes
                   </a>
                 </li>
+                <li className="nav-item responsive-nav-item">
+                  <a
+                    href="#contact"
+                    className="link-secondary text-dark custom-font responsive-custom-font"
+                    aria-current="page"
+                    onClick={() => {
+                      setIsNavExpanded(!isNavExpanded)
+                    }}
+                  >
+                    Contact
+                  </a>
+                </li>
               </ul>
             </div>
           </nav>

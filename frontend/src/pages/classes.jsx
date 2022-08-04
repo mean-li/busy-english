@@ -29,7 +29,7 @@ function Classes() {
               to talk about a certain topic, so don't be afraid :D
             </h2>
           </div>
-          <div className="card-body d-flex justify-content-center flex-column gap-4 button-area">
+          <div className="card-body d-flex justify-content-center flex-column gap-3 button-area">
             <button className="btn btn-light-secondary custom-buttom-2">
               <a href="#about" aria-current="page" className="button-link">
                 Learn more
@@ -58,7 +58,7 @@ function Classes() {
               situations.
             </h2>
           </div>
-          <div className="card-body d-flex justify-content-center flex-column gap-4 button-area">
+          <div className="card-body d-flex justify-content-center flex-column gap-3 button-area">
             <button className="btn btn-light-secondary custom-buttom-2">
               <a href="#about" aria-current="page" className="button-link">
                 Learn more

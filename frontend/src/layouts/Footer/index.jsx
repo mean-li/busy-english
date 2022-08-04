@@ -9,8 +9,7 @@ function Footer() {
       <div className="fix-margin"></div>
       <div className="footer-responsivo d-flex align-items-center justify-content-center gap-5 fix-spacing">
         <a
-          href="/CONTACT"
-          target="_blank"
+          href="#contact"
           className="footer-links nav-link link-secondary text-dark fw-semibold text-sm-center"
         >
           CONTACT
@@ -24,7 +23,7 @@ function Footer() {
           BOOK A CALL
         </a>
         <a
-          href="/SUPORT ME"
+          href="/suportme"
           target="_blank"
           className="footer-links nav-link link-secondary text-dark fw-semibold text-sm-center"
         >
