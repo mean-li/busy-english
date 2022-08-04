@@ -4,7 +4,7 @@ function Type2 (){
     return(
         <section 
         className="caixa-responsiva text-dark p-5 d-flex align-items-center bg-primary ">
-            <div className="container-responsivo container d-flex align-items-center justify-content-center">
+            <div className="type2-container container-responsivo container d-flex align-items-center justify-content-center">
                 <div className="d-flex flex-column me-3 text-area">
                     <div className="d-flex justify-content-start flex-row">
                         <div>
