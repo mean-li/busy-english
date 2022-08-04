@@ -1,6 +1,6 @@
 import { BsInstagram } from 'react-icons/bs'
-import { BsYoutube } from 'react-icons/bs'
-import { BsTwitter } from 'react-icons/bs'
+import { VscMail } from 'react-icons/vsc'
+import { BsTelephone } from 'react-icons/bs'
 import '../../assets/styles/footer.css'
 
 function Footer() {
@@ -40,19 +40,19 @@ function Footer() {
             color="#000000"
           />
         </a>
-        <a href="/twitter" target="_blank">
-          <BsTwitter
+        <a href="tel:+5511996873224" target="_blank">
+          <BsTelephone
             className="text-dark link-secondary"
             alt="logo twitter"
             size="20"
             color="#000000"
           />
         </a>
-        <a href="/youtube">
-          <BsYoutube
-            className="text-dark link-secondary"
-            alt="logo youtube"
-            size="20"
+        <a href="mailto:nitongu@outlook.com">
+          <VscMail
+            className="text-dark link-secondary p-0 m-0"
+            alt="icone email"
+            size="24"
             color="#000000"
           />
         </a>
