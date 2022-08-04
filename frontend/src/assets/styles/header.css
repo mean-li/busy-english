@@ -31,7 +31,6 @@
 }
 
 .navigation-menu li a {
-  /* display: block; */
   width: 100%;
 }
 
@@ -82,8 +81,12 @@
     padding: 1rem;
   }
 
+  .responsive-nav-item {
+    margin-bottom: 1rem !important;
+  }
+
   .responsive-custom-font {
-    font-size: 1.2rem !important;
+    font-size: 1.3rem !important;
     font-weight: 500 !important;
     padding: 0 !important;
   }

@@ -36,20 +36,26 @@ function Header() {
               }
             >
               <ul className="nav justify-content-end gap-5">
-                <li className="nav-item">
+                <li className="nav-item responsive-nav-item">
                   <a
                     href="#about"
                     className="link-secondary text-dark custom-font responsive-custom-font"
                     aria-current="page"
+                    onClick={() => {
+                      setIsNavExpanded(!isNavExpanded)
+                    }}
                   >
                     About
                   </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item responsive-nav-item">
                   <a
                     href="#classes"
                     className="link-secondary text-dark custom-font responsive-custom-font"
                     aria-current="page"
+                    onClick={() => {
+                      setIsNavExpanded(!isNavExpanded)
+                    }}
                   >
                     Classes
                   </a>
