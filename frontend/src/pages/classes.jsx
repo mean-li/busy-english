@@ -31,7 +31,7 @@ function Classes() {
           </div>
           <div className="card-body d-flex justify-content-center flex-column gap-3 button-area">
             <button className="btn btn-light-secondary custom-buttom-2">
-              <a href="#about" aria-current="page" className="button-link">
+              <a href="#contact" aria-current="page" className="button-link">
                 Learn more
               </a>
             </button>
@@ -60,7 +60,7 @@ function Classes() {
           </div>
           <div className="card-body d-flex justify-content-center flex-column gap-3 button-area">
             <button className="btn btn-light-secondary custom-buttom-2">
-              <a href="#about" aria-current="page" className="button-link">
+              <a href="#contact" aria-current="page" className="button-link">
                 Learn more
               </a>
             </button>

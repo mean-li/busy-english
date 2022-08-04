@@ -40,7 +40,7 @@ function Contact() {
               </button>
               <button className="btn btn-light-secondary custom-buttom-2">
                 <a
-                  href="https://api.whatsapp.com/send?phone=+5511996873224&text=Hi Nicole!"
+                  href="mailto:nitongu@outlook.com"
                   className="button-link"
                   target="_blank"
                 >
