@@ -25,6 +25,16 @@
   position: relative;
 }
 
+.navigation-menu ul {
+  display: flex;
+  padding: 0;
+}
+
+.navigation-menu li a {
+  /* display: block; */
+  width: 100%;
+}
+
 .hamburger {
   border: 0;
   height: 2.3rem;
@@ -33,6 +43,8 @@
   background-color: transparent;
   cursor: pointer;
   position: absolute;
+  top: 50%;
+  right: 0%;
   transform: translateY(-50%);
   display: none;
 }
@@ -55,15 +67,12 @@
   }
 
   .hamburger {
-    display: flex;
-    position: relative;
-    align-items: center;
-    left: 14.2rem; /* não posso usar isso */
-    top: 1.25rem; /* não posso usar isso */
+    display: block;
+    padding: 0 !important;
   }
   .navigation-menu ul {
     position: absolute;
-    top: 3.8rem;
+    top: 100%;
     left: 0;
     flex-direction: column;
     width: 100%;
