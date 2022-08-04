@@ -9,7 +9,7 @@ function Classes() {
       {/* a div abaixo é da caixa sem background */}
       <div className="d-flex gap-3 align-items-center justify-content-center container container-responsivo">
         {/* a div abaixo é do tipo 1 */}
-        <div className="card border-dark d-flex flex-column me-3 text-area">
+        <div className="card border-dark d-flex flex-column text-area">
           <div className="card-body gap-3 d-flex justify-content-start flex-column">
             <div className="d-flex align-items-center justify-content-center">
               <img
@@ -39,7 +39,7 @@ function Classes() {
           </div>
         </div>
         {/* a div abaixo é do tipo 2 */}
-        <div className="card d-flex flex-column me-3 text-area">
+        <div className="card d-flex flex-column text-area">
           <div className="card-body gap-3 d-flex justify-content-start flex-column">
             <div className="d-flex align-items-center justify-content-center">
               <img
