@@ -1,0 +1,37 @@
+.type2-container{
+    margin: auto;
+    width: 70%;
+}
+
+.type2-text-area{
+    gap: 1.6rem!important;
+}
+
+.type2-subtitle{
+    font-size: 1.25rem!important;
+    font-weight: bolder;
+    margin-bottom: 0.9rem;
+    color: black;
+    
+}
+
+.type2-text{
+    font-size: 1.25rem;
+    font-weight: normal;
+    text-align: justify;
+    color: black;
+    margin-bottom: 0.9rem;
+    text-align: justify !important;
+}
+
+.type2-image{
+    display:block;
+    width: 40%;
+    margin-left: 2.3rem;
+    margin-right: 1.0rem;
+}
+
+.type2-container-responsivo {
+    flex-flow: row nowrap;
+  }
+
