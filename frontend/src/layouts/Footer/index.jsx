@@ -1,18 +1,16 @@
 import { BsInstagram } from 'react-icons/bs'
-import { BsYoutube } from 'react-icons/bs'
-import { BsTwitter } from 'react-icons/bs'
+import { VscMail } from 'react-icons/vsc'
+import { BsTelephone } from 'react-icons/bs'
 import '../../assets/styles/footer.css'
 
 function Footer() {
   return (
-    <div className="footer flexfix-spacing custom-border">
+    <div className="footer flex fix-spacing custom-border">
       <div className="fix-margin"></div>
       <div className="footer-responsivo d-flex align-items-center justify-content-center gap-5 fix-spacing">
-        <a className="footer"> </a>
         <a
-          href="/CONTACT"
-          target="_blank"
-          className="nav-link link-secondary text-dark fw-semibold text-sm-center"
+          href="#contact"
+          className="footer-links nav-link link-secondary text-dark fw-semibold text-sm-center"
         >
           CONTACT
         </a>
@@ -20,19 +18,19 @@ function Footer() {
         <a
           href="https://calendly.com/nicoletongu"
           target="_blank"
-          className="nav-link link-secondary text-dark fw-semibold text-sm-center"
+          className="footer-links nav-link link-secondary text-dark fw-semibold text-sm-center"
         >
           BOOK A CALL
         </a>
         <a
-          href="/SUPORT ME"
+          href="/suportme"
           target="_blank"
-          className="nav-link link-secondary text-dark fw-semibold text-sm-center"
+          className="footer-links nav-link link-secondary text-dark fw-semibold text-sm-center"
         >
           SUPORT ME
         </a>
       </div>
-      <div className="d-flex align-items-center justify-content-center gap-4 fix-spacing">
+      <div className="footer-social d-flex align-items-center justify-content-center gap-4 fix-spacing">
         <a href="https://www.instagram.com/_colapse/" target="_blank">
           <BsInstagram
             className="text-dark link-secondary"
@@ -41,32 +39,36 @@ function Footer() {
             color="#000000"
           />
         </a>
-        <a href="/twitter" target="_blank">
-          <BsTwitter
+        <a href="tel:+5511996873224" target="_blank">
+          <BsTelephone
             className="text-dark link-secondary"
             alt="logo twitter"
             size="20"
             color="#000000"
           />
         </a>
-        <a href="/youtube">
-          <BsYoutube
-            className="text-dark link-secondary"
-            alt="logo youtube"
-            size="20"
+        <a href="mailto:nitongu@outlook.com">
+          <VscMail
+            className="text-dark link-secondary p-0 m-0"
+            alt="icone email"
+            size="24"
             color="#000000"
           />
         </a>
-
-        <a className="social"> </a>
       </div>
 
-      <div>
-        <p className="footer_copyright text-center fw-normal">
-          {' '}
-          © mean.li | 2022
+      <div className="copyright">
+        <p className="footer-copyright text-center fw-normal">
+          ©{' '}
+          <a
+            className="button-link"
+            href="https://github.com/mean-li"
+            target="_blank"
+          >
+            mean.li
+          </a>{' '}
+          | 2022
         </p>
-        <p className="meanli"> </p>
       </div>
     </div>
   )

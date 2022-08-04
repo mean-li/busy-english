@@ -13,21 +13,20 @@ function Home() {
         <div className="d-flex flex-column me-3 text-area">
           <div className="d-flex justify-content-start flex-column">
             <h1 className="text text-start title">
-              Language coaching for busy people
+              English speaking classes to real people and real topics
             </h1>
             <h2 className="text lh-sm subtitle">
-              I help language learners integrate languages into their lives
-              through balanced mindsets, clear goals and actionable learning
-              methods.
+              I help busy people to practice their english through the routine
+              in a natural and efficient way. Let's work out your speed and
+              pronunciation skills.
             </h2>
           </div>
           <div className="d-flex justify-content-center flex-column gap-4 button-area">
             <CallButton />
-            <button
-              href="/about"
-              className="btn btn-light-secondary custom-buttom-2"
-            >
-              Learn more about me
+            <button className="btn btn-light-secondary custom-buttom-2">
+              <a href="#about" aria-current="page" className="button-link">
+                Learn more about me
+              </a>
             </button>
           </div>
         </div>

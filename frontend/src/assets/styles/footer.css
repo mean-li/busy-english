@@ -3,30 +3,44 @@
 }
 
 .fix-margin {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 .fix-spacing {
   margin-bottom: 1.75rem;
 }
 
-.meanli {
-  height: 5px;
-  margin-top: 5px;
-}
-
-.footer_copyright {
+.footer-copyright {
   color: grey;
   font-family: 'FiraMono', sans-serif;
+  margin: 0;
 }
 
 @media only screen and (max-width: 768px) {
   .footer {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-
   .footer-responsivo {
     padding-top: 0 !important;
     width: 100%;
     flex-flow: column nowrap;
+    gap: 1.75rem !important;
+  }
+  .footer-links {
+    margin-bottom: 0 !important;
+  }
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0 !important;
+  }
+  .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

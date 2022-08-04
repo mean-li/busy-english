@@ -10,7 +10,7 @@ function Header() {
     <>
       <header className="header fixed-top bg-white">
         <div className="navbar">
-          <nav className="navbar navigation">
+          <nav className=" navigation">
             <a href="/" className="d-flex flex-column">
               <span className="mb-cleaner text-dark h1 fs-3 fw-bold logo">
                 BUSY
@@ -36,22 +36,40 @@ function Header() {
               }
             >
               <ul className="nav justify-content-end gap-5">
-                <li className="nav-item">
+                <li className="nav-item responsive-nav-item">
                   <a
                     href="#about"
                     className="link-secondary text-dark custom-font responsive-custom-font"
                     aria-current="page"
+                    onClick={() => {
+                      setIsNavExpanded(!isNavExpanded)
+                    }}
                   >
                     About
                   </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item responsive-nav-item">
                   <a
                     href="#classes"
                     className="link-secondary text-dark custom-font responsive-custom-font"
                     aria-current="page"
+                    onClick={() => {
+                      setIsNavExpanded(!isNavExpanded)
+                    }}
                   >
                     Classes
+                  </a>
+                </li>
+                <li className="nav-item responsive-nav-item">
+                  <a
+                    href="#contact"
+                    className="link-secondary text-dark custom-font responsive-custom-font"
+                    aria-current="page"
+                    onClick={() => {
+                      setIsNavExpanded(!isNavExpanded)
+                    }}
+                  >
+                    Contact
                   </a>
                 </li>
               </ul>

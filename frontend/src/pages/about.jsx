@@ -15,17 +15,17 @@ function About() {
               <h1 className="about-title text text-start lh-sm">
                 Hey, my name is Nicole :)
               </h1>
-              <h1 className="about-subtitle text text-start lh-sm">
+              <h2 className="about-subtitle text text-start lh-sm">
                 My background
-              </h1>
-              <h2 className="about-text text text-start lh-sm">
+              </h2>
+              <h3 className="about-text text text-start lh-sm">
                 I'm a economy student that totally love to teach and learn
                 languages! I've been studying english since I was 9 years old, I
                 fell in love at the first sight! I've taken the First Cambridge
                 Certificate - an international test that levels your english -
                 and my speaking level was C1 (fluent); that's why I enjoy to
                 teach speaking skills!
-              </h2>
+              </h3>
             </div>
           </div>
           {/* a div abaixo é da imagem */}
