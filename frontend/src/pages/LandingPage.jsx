@@ -1,4 +1,5 @@
 import About from './about'
+import Classes from './classes'
 import Home from './home'
 
 function LandingPage() {
@@ -6,6 +7,7 @@ function LandingPage() {
     <>
       <Home />
       <About />
+      <Classes />
     </>
   )
 }

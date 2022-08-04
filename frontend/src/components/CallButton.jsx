@@ -1,10 +1,6 @@
 function CallButton() {
   return (
-    <button
-      className="custom-buttom-1 btn btn-secondary"
-      href="https://calendly.com/nicoletongu"
-      target="_blank"
-    >
+    <button className="custom-buttom-1 btn btn-secondary">
       <a
         href="https://calendly.com/nicoletongu"
         target="_blank"
