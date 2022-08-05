@@ -1,0 +1,12 @@
+left-responsive-fix {
+  margin-left: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  right-responsive-fix {
+    margin-right: 0 !important;
+  }
+  left-responsive-fix {
+    margin-left: 0 !important;
+  }
+}
