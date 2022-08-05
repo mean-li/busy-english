@@ -2,8 +2,10 @@ function CallButton() {
   return (
     <button className="custom-buttom-1 btn btn-secondary">
       <a
-        href="https://calendly.com/nicoletongu"
-        target="_blank"
+        href=""
+        onClick={Calendly.initPopupWidget({
+          url: 'https://calendly.com/nicoletongu'
+        })}
         className="button-link"
       >
         Book a call
