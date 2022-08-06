@@ -1,13 +1,11 @@
 function CallButton() {
+  function CalendlyPopup() {
+    Calendly.initPopupWidget({ url: 'https://calendly.com/andressavarela' })
+    return false
+  }
   return (
     <button className="custom-buttom-1 btn btn-secondary">
-      <a
-        href=""
-        onClick={Calendly.initPopupWidget({
-          url: 'https://calendly.com/nicoletongu'
-        })}
-        className="button-link"
-      >
+      <a href="" onClick={CalendlyPopup()} className="button-link">
         Book a call
       </a>
     </button>
