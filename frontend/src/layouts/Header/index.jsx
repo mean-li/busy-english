@@ -13,9 +13,9 @@ function Header() {
           <nav className=" navigation">
             <a href="/" className="d-flex flex-column">
               <span className="mb-cleaner text-dark h1 fs-3 fw-bold logo">
-                BUSY
+                NICOLE
                 <br />
-                ENGLISH
+                TONGU
               </span>
             </a>
             <button
