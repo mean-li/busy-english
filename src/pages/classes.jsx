@@ -35,7 +35,7 @@ function Classes() {
           {/* a div abaixo é da imagem */}
           <div className="ms-3 home-image-container">
             <img
-              src="src/assets/images/inverted-book.png"
+              src="./src/assets/images/inverted-book.png"
               className="home-image opacity-75"
             ></img>
           </div>
@@ -50,7 +50,7 @@ function Classes() {
           {/* a div abaixo é da imagem */}
           <div className="me-3 type2-margin type2-image-responsive home-image-container">
             <img
-              src="src/assets/images/book.png"
+              src="./src/assets/images/book.png"
               className="type2-image opacity-75"
             ></img>
           </div>

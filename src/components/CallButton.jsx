@@ -1,6 +1,6 @@
 function CallButton() {
   function CalendlyPopup() {
-    Calendly.initPopupWidget({ url: 'https://calendly.com/andressavarela' })
+    Calendly.initPopupWidget({ url: 'https://calendly.com/nicoletongu' })
     return false
   }
   return (
