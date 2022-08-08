@@ -1,6 +1,6 @@
-import CallButton from '../components/CallButton'
+import NicoleImage from '../assets/images/nicole_pic.jpeg'
 import '../assets/styles/home.css'
-
+import CallButton from '../components/CallButton'
 function Home() {
   return (
     <section
@@ -32,10 +32,7 @@ function Home() {
         </div>
         {/* a div abaixo é da imagem */}
         <div className="ms-3 home-image-container">
-          <img
-            src="/src/assets/images/nicole_pic.jpeg"
-            className="home-image"
-          ></img>
+          <img src={NicoleImage} className="home-image" />
         </div>
       </div>
     </section>
