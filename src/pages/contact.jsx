@@ -29,7 +29,7 @@ function Contact() {
               </h3>
             </div>
             <div className="d-flex justify-content-center flex-column gap-3 button-area">
-              <button className="custom-buttom-1 btn btn-secondary">
+              <button className="custom-button-1 btn btn-secondary">
                 <a
                   href="https://api.whatsapp.com/send?phone=+5511996873224&text=Hi Nicole!"
                   className="button-link"
@@ -38,7 +38,7 @@ function Contact() {
                   Reach me on WhatsApp <BsWhatsapp size="21" />
                 </a>
               </button>
-              <button className="btn btn-light-secondary custom-buttom-2">
+              <button className="btn btn-light-secondary custom-button-2">
                 <a
                   href="mailto:nitongu@outlook.com"
                   className="button-link"

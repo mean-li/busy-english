@@ -24,7 +24,7 @@ function Classes() {
               </h2>
             </div>
             <div className="d-flex justify-content-center flex-column gap-4 button-area">
-              <button className="btn btn-light-secondary custom-buttom-2">
+              <button className="btn btn-light-secondary custom-button-2">
                 <a href="#contact" aria-current="page" className="button-link">
                   Learn more
                 </a>
@@ -67,7 +67,7 @@ function Classes() {
               </h2>
             </div>
             <div className="d-flex justify-content-center flex-column gap-4 button-area">
-              <button className="btn btn-light-secondary custom-buttom-2">
+              <button className="btn btn-light-secondary custom-button-2">
                 <a href="#contact" aria-current="page" className="button-link">
                   Learn more
                 </a>

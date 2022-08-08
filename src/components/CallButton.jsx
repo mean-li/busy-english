@@ -1,13 +1,18 @@
+import { PopupButton } from 'react-calendly'
+
 function CallButton() {
-  function CalendlyPopup() {
-    Calendly.initPopupWidget({ url: 'https://calendly.com/nicoletongu' })
-    return false
-  }
   return (
-    <button className="custom-buttom-1 btn btn-secondary">
-      <a href="" onClick={CalendlyPopup()} className="button-link">
-        Book a call
-      </a>
+    <button className="custom-button-1 btn btn-secondary">
+      <PopupButton
+        url="https://calendly.com/nicoletongu"
+        /*
+         * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+         * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+         */
+        rootElement={document.getElementById('root')}
+        className="w-100 bg-transparent border-0 button-link button-1-text"
+        text="Book a call"
+      />
     </button>
   )
 }
