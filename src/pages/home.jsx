@@ -33,7 +33,7 @@ function Home() {
         {/* a div abaixo é da imagem */}
         <div className="ms-3 home-image-container">
           <img
-            src="./src/assets/images/nicole_pic.jpeg"
+            src="/src/assets/images/nicole_pic.jpeg"
             className="home-image"
           ></img>
         </div>
