@@ -32,7 +32,7 @@ function Home() {
         </div>
         {/* a div abaixo é da imagem */}
         <div className="ms-3 home-image-container">
-          <img src={NicoleImage} className="home-image" />
+          <img src={NicoleImage} alt="Nicole Tongu" className="home-image" />
         </div>
       </div>
     </section>

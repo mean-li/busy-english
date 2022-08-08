@@ -1,5 +1,7 @@
 import '../assets/styles/classes.css'
 import CallButton from '../components/CallButton'
+import TypeOneImage from '../assets/images/inverted-book.png'
+import TypeTwoImage from '../assets/images/book.png'
 
 function Classes() {
   return (
@@ -35,7 +37,8 @@ function Classes() {
           {/* a div abaixo é da imagem */}
           <div className="ms-3 home-image-container">
             <img
-              src="./src/assets/images/inverted-book.png"
+              src={TypeOneImage}
+              alt="Books on a table"
               className="home-image opacity-75"
             ></img>
           </div>
@@ -50,7 +53,8 @@ function Classes() {
           {/* a div abaixo é da imagem */}
           <div className="me-3 type2-margin type2-image-responsive home-image-container">
             <img
-              src="./src/assets/images/book.png"
+              src={TypeTwoImage}
+              alt="Books on a table"
               className="type2-image opacity-75"
             ></img>
           </div>
