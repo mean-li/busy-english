@@ -11,7 +11,7 @@ function CallButton() {
          */
         rootElement={document.getElementById('root')}
         className="w-100 bg-transparent border-0 button-link button-1-text"
-        text="Book a call"
+        text="Agende um horário comigo"
       />
     </button>
   )

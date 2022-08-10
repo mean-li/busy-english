@@ -15,20 +15,22 @@ function Classes() {
           {/* a div abaixo é dos textos e botão */}
           <div className="d-flex flex-column me-3 text-area">
             <div className="d-flex justify-content-start flex-column">
-              <h1 className="text text-center subtitle fw-semibold">Type 1</h1>
+              <h1 className="text text-center subtitle fw-semibold">
+                Regular Conversation
+              </h1>
               <h2 className="text lh-sm about-text">
-                Based on your interests I create a personalized material and
-                send to you to read - the material is a short text about a
-                topic, the aim of this is to have a topic and break the ice.
-                <br /> If the conversation take different directions it's fine,
-                because what we want is to practice conversation, not to know
-                how to talk about a certain topic, so don't be afraid :D
+                Com base nos seus interesses eu crio um material personalizado e
+                envio para você ler - o material é um pequeno texto sobre um
+                tema, o objetivo disso é ter um tema para quebrar o gelo. <br />
+                Se a conversa tomar rumos diferentes tudo bem, porque o que a
+                gente quer é praticar a conversação, não saber falar sobre
+                determinado assunto, então não tenha medo :D
               </h2>
             </div>
             <div className="d-flex justify-content-center flex-column gap-4 button-area">
               <button className="btn btn-light-secondary custom-button-2">
                 <a href="#contact" aria-current="page" className="button-link">
-                  Learn more
+                  Saiba mais
                 </a>
               </button>
               <CallButton />
@@ -73,7 +75,7 @@ function Classes() {
             <div className="d-flex justify-content-center flex-column gap-4 button-area">
               <button className="btn btn-light-secondary custom-button-2">
                 <a href="#contact" aria-current="page" className="button-link">
-                  Learn more
+                  Saiba mais
                 </a>
               </button>
               <CallButton />

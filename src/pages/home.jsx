@@ -12,20 +12,18 @@ function Home() {
         {/* a div abaixo é dos textos e botão */}
         <div className="d-flex flex-column me-3 text-area">
           <div className="d-flex justify-content-start flex-column">
-            <h1 className="text text-start title">
-              English speaking classes to real people and real topics
-            </h1>
+            <h1 className="text text-start title">English speaking classes</h1>
             <h2 className="text lh-sm subtitle">
-              I help busy people to practice their english through the routine
-              in a natural and efficient way. Let's work out your speed and
-              pronunciation skills.
+              Eu ajudo pessoas ocupadas a praticar seu inglês através da rotina
+              de forma natural e eficiente. Vamos trabalhar suas habilidades de
+              velocidade e pronúncia!
             </h2>
           </div>
           <div className="d-flex justify-content-center flex-column gap-4 button-area">
             <CallButton />
             <button className="btn btn-light-secondary custom-button-2">
               <a href="#about" aria-current="page" className="button-link">
-                Learn more about me
+                Saiba mais sobre mim
               </a>
             </button>
           </div>

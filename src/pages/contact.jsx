@@ -18,14 +18,14 @@ function Contact() {
           <div className="d-flex flex-column me-3 right-responsive-fix text-area">
             <div className="d-flex justify-content-start flex-column">
               <h1 className="about-title text text-start lh-sm">
-                Got interested?
+                Tem interesse?
               </h1>
               <h2 className="about-subtitle text text-start lh-sm">
-                Talk to me!
+                Me chama!
               </h2>
               <h3 className="about-text text text-start lh-sm mb-0">
-                I will be happy to clarify any doubts and tell you more about my
-                classes.
+                Ficarei feliz em esclarecer qualquer dúvida e te contar mais
+                sobre o funcionamento das aulas.
               </h3>
             </div>
             <div className="d-flex justify-content-center flex-column gap-3 button-area">
@@ -35,7 +35,7 @@ function Contact() {
                   className="button-link"
                   target="_blank"
                 >
-                  Reach me on WhatsApp <BsWhatsapp size="21" />
+                  Me manda uma mensagem <BsWhatsapp size="21" />
                 </a>
               </button>
               <button className="btn btn-light-secondary custom-button-2">
@@ -44,7 +44,7 @@ function Contact() {
                   className="button-link"
                   target="_blank"
                 >
-                  Send me an email <VscMail size="24" />
+                  Me envie um email <VscMail size="24" />
                 </a>
               </button>
             </div>
@@ -53,10 +53,10 @@ function Contact() {
           <div className="d-flex flex-column left-responsive-fix text-area">
             <div className="d-flex justify-content-start flex-column">
               <h1 className="about-subtitle text text-start lh-sm">
-                Platforms I use
+                Plataformas que utilizo
               </h1>
               <h2 className="about-text text text-start lh-sm">
-                We can have our classes on any of these platforms!
+                Podemos ter nossas aulas em qualquer uma dessas plataformas!
               </h2>
               <div className="d-flex align-items-center justify-content-center flex-direction-row gap-4 p-1 mb-3">
                 <SiGooglemeet
@@ -79,8 +79,9 @@ function Contact() {
                 />
               </div>
               <h2 className="about-text text text-start lh-sm">
-                If you want a platform that's not listed here, get in touch and
-                we can see if it's possible to use it on our class.
+                Se você quiser uma plataforma que não está listada acima, entre
+                em contato e podemos checar se é possível utilizá-la em nossa
+                aula.
               </h2>
             </div>
           </div>

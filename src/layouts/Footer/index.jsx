@@ -12,7 +12,7 @@ function Footer() {
           href="#contact"
           className="footer-links nav-link link-secondary text-dark fw-semibold text-sm-center"
         >
-          CONTACT
+          CONTATO
         </a>
 
         <a
@@ -20,14 +20,14 @@ function Footer() {
           target="_blank"
           className="footer-links nav-link link-secondary text-dark fw-semibold text-sm-center"
         >
-          BOOK A CALL
+          AGENDE UMA LIGAÇÃO
         </a>
         <a
           href="/suportme"
           target="_blank"
           className="footer-links nav-link link-secondary text-dark fw-semibold text-sm-center"
         >
-          SUPORT ME
+          CONTRIBUA
         </a>
       </div>
       <div className="footer-social d-flex align-items-center justify-content-center gap-4 fix-spacing">

@@ -45,7 +45,7 @@ function Header() {
                       setIsNavExpanded(!isNavExpanded)
                     }}
                   >
-                    About
+                    Sobre mim
                   </a>
                 </li>
                 <li className="nav-item responsive-nav-item">
@@ -57,7 +57,7 @@ function Header() {
                       setIsNavExpanded(!isNavExpanded)
                     }}
                   >
-                    Classes
+                    Aulas
                   </a>
                 </li>
                 <li className="nav-item responsive-nav-item">
@@ -69,7 +69,7 @@ function Header() {
                       setIsNavExpanded(!isNavExpanded)
                     }}
                   >
-                    Contact
+                    Contato
                   </a>
                 </li>
               </ul>

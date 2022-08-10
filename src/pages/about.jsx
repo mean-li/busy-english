@@ -13,18 +13,18 @@ function About() {
           <div className="d-flex flex-column">
             <div className="d-flex justify-content-start flex-column">
               <h1 className="about-title text text-start lh-sm">
-                Hey, my name is Nicole :)
+                Oii, meu nome é Nicole :)
               </h1>
               <h2 className="about-subtitle text text-start lh-sm">
-                My background
+                Meu histórico
               </h2>
               <h3 className="about-text text text-start lh-sm">
-                I'm a economy student that totally love to teach and learn
-                languages! I've been studying english since I was 9 years old, I
-                fell in love at the first sight! I've taken the First Cambridge
-                Certificate - an international test that levels your english -
-                and my speaking level was C1 (fluent); that's why I enjoy to
-                teach speaking skills!
+                Eu sou um estudante de economia que adora ensinar e aprender
+                idiomas! Eu estudo inglês desde os 9 anos de idade, foi paixão à
+                primeira vista! Fiz o First Cambridge Certificate - um teste
+                internacional que nivela seu inglês - e meu nível de conversação
+                era C1 (fluente); é por isso que gosto de ensinar habilidades de
+                conversação!
               </h3>
             </div>
           </div>
@@ -32,21 +32,21 @@ function About() {
           <div className="d-flex flex-column">
             <div className="d-flex justify-content-start flex-column">
               <h1 className="about-subtitle text text-start lh-sm">
-                What I do
+                O que eu faço
               </h1>
               <h2 className="about-text text text-start fw-normal lh-sm">
-                Throughout my career as a teacher I've noticed that the major
-                part of the students had the speaking part neglected; while
-                learning a language grammar is really important, but in real
-                life if you learn a language but can't talk... then why was it
-                useful?
+                Ao longo da minha carreira como professora notei que a maior
+                parte dos alunos teve a parte da conversação negligenciada;
+                aprender a gramática de uma língua é realmente importante, mas
+                na vida real se você aprende uma língua mas não consegue
+                falar... então para que isso foi útil?
               </h2>
               <h2 className="about-text text text-start fw-normal lh-sm">
-                That's why I developed specific material to practice
-                conversation while talking about your interests.
+                Por isso desenvolvi um material específico para praticar a
+                conversação enquanto fala sobre seus interesses.
               </h2>
               <h2 className="about-text text text-start fw-normal lh-sm">
-                I offer two kinds of classes:
+                Eu ofereço diversos tipos de aulas:
               </h2>
             </div>
           </div>
