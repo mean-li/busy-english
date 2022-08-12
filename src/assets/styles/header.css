@@ -1,8 +1,12 @@
 .header {
   margin-bottom: 2rem;
-  padding-right: 5.5rem;
+  margin-right: 1.23rem;
+  margin-left: 1.23rem;
+  margin-top: 1.23rem;
+  border-radius: 100px;
   padding-left: 5.5rem;
-  position: fixed-top;
+  padding-right: 5.5rem;
+
 }
 
 .mb-cleaner {
@@ -53,6 +57,9 @@
     width: 100%;
     padding-right: 2rem;
     padding-left: 2rem;
+    margin-left: 0.08rem;
+    margin-right: 0.07rem;
+    margin-top: 0.3rem;
   }
 
   .logo {
