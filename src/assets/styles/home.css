@@ -1,35 +1,39 @@
 /* home/epic styles */
 .container {
   margin: auto;
-  width: 70%;
+  width: 85%;
 }
 
 .rounded-container {
   border-radius: 6.75rem;
-  margin-left: 2.375rem;
-  margin-right: 2.375rem;
+  margin-left: 4.375rem!important;
+  margin-right: 4.375rem!important;
+  /* margin-top: -3.95%!important; */
+  /* width: 90%; */
+  /* height: 80vh; */
+  
 }
 
 .text-area {
   gap: 1.6rem !important;
   /* talvez n precise dessa width */
-  width: 100%;
+  width: 50%;
 }
 
 .title {
   font-family: 'Fira Mono';
   font-style: normal;
-  font-size: 3.5rem !important;
-  font-weight: 400 !important;
+  font-size: 2.5rem !important;
+  font-weight: 200 !important;
   margin-bottom: 1.6rem !important;
-  line-height: 4.813rem;
+  line-height: 4rem;
   left: 49.063rem !important;
 }
 
 .subtitle {
   font-family: 'Fira Mono';
   font-style: normal;
-  font-size: 1.75rem !important;
+  font-size: 1.5rem !important;
   font-weight: 25;
   text-align: justify;
   line-height: 2.688rem;
@@ -110,6 +114,7 @@
     padding-top: 4rem !important;
     padding-bottom: 4rem !important;
     width: 100%;
+    margin-left: 0!important;
   }
   .text-area {
     margin-right: 0 !important;
