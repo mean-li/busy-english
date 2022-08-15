@@ -1,12 +1,23 @@
 .header {
   margin-bottom: 2rem;
+  margin-top: 1.23rem;
   margin-right: 1.23rem;
   margin-left: 1.23rem;
-  margin-top: 1.23rem;
-  border-radius: 100px;
+  border-radius: 6.25rem;
   padding-left: 5.5rem;
   padding-right: 5.5rem;
+}
 
+.header.active {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  margin-right: -1.23rem;
+  margin-left: -1.23rem;
+  padding-left: 5.5rem;
+  padding-right: 5.5rem;
+  border-radius: 0;
+  border-bottom-right-radius: 5rem;
+  border-bottom-left-radius: 5rem;
 }
 
 .mb-cleaner {

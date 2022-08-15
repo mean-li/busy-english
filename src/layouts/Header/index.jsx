@@ -6,9 +6,27 @@ import React, { useState } from 'react'
 function Header() {
   const [isNavExpanded, setIsNavExpanded] = useState(false)
 
+  const [navbar, setNavbar] = useState(false)
+
+  const resizeNavbar = () => {
+    if (window.scrollY >= 80) {
+      setNavbar(true)
+    } else {
+      setNavbar(false)
+    }
+  }
+
+  window.addEventListener('scroll', resizeNavbar)
+
   return (
     <>
-      <header className="header fixed-top bg-white">
+      <header
+        className={
+          navbar
+            ? 'header active fixed-top bg-white'
+            : 'header fixed-top bg-white'
+        }
+      >
         <div className="navbar">
           <nav className=" navigation">
             <a href="/" className="d-flex flex-column">
