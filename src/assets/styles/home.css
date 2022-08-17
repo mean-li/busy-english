@@ -55,25 +55,25 @@
 
 .custom-button-1:hover {
   color: rgb(247, 255, 254);
-  background-color: #884862;
+  background-color: #054570;
   transition: background-color 0.25s;
 }
 
 .custom-button-2 {
-  color: #361a26;
+  color: #013252;
   font-weight: 600;
   letter-spacing: 0.5px;
   border-radius: 6.25rem !important;
   padding-top: 0.65rem !important;
   padding-bottom: 0.65rem !important;
-  border-color: #eba5c3;
+  border-color: #50a2d8;
 }
 
 .custom-button-2:hover {
-  color: #562f40;
-  background-color: #eeabc8;
+  color: #013252;
+  background-color: #499cd3;
   transition: background-color 0.25s;
-  border-color: #eba5c3;
+  border-color: #50a2d8;
 }
 
 .button-link {
