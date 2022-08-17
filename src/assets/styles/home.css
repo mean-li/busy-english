@@ -6,12 +6,11 @@
 
 .rounded-container {
   border-radius: 6.75rem;
-  margin-left: 4.375rem!important;
-  margin-right: 4.375rem!important;
+  margin-left: 4.375rem;
+  margin-right: 4.375rem;
   /* margin-top: -3.95%!important; */
   /* width: 90%; */
   /* height: 80vh; */
-  
 }
 
 .text-area {
@@ -114,7 +113,7 @@
     padding-top: 4rem !important;
     padding-bottom: 4rem !important;
     width: 100%;
-    margin-left: 0!important;
+    margin-left: 0 !important;
   }
   .text-area {
     margin-right: 0 !important;
@@ -133,10 +132,17 @@
     letter-spacing: 0.5px;
     margin-bottom: 0 !important;
   }
+  .rounded-container {
+    margin-left: 0.07rem;
+    margin-right: 0.07rem;
+  }
   .home-image-container {
     margin-left: 0 !important;
   }
   .home-image {
-    padding-top: 1.85rem !important;
+    padding-bottom: 1.85rem !important;
+  }
+  .text-area {
+    width: 100%;
   }
 }

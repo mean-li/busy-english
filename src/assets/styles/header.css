@@ -3,9 +3,9 @@
   margin-top: 1.23rem;
   margin-right: 1.23rem;
   margin-left: 1.23rem;
-  border-radius: 6.25rem;
   padding-left: 5.5rem;
   padding-right: 5.5rem;
+  border-radius: 6.25rem;
 }
 
 .header.active {
@@ -65,12 +65,27 @@
 
 @media only screen and (max-width: 768px) {
   .header {
-    width: 100%;
+    /* width: 100%;
     padding-right: 2rem;
     padding-left: 2rem;
-    margin-left: 0.08rem;
+    margin-left: 0.07rem;
     margin-right: 0.07rem;
+    margin-top: 0.3rem; */
     margin-top: 0.3rem;
+    margin-left: 0.07rem;
+    margin-right: 0.07rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .header.active {
+    border-radius: 0;
+    border-bottom-right-radius: 2.25rem;
+    border-bottom-left-radius: 2.25rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
   }
 
   .logo {
