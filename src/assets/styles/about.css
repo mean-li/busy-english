@@ -9,12 +9,14 @@
   line-height: 1.1em;
   text-align: justify !important;
   margin-bottom: 0.9rem;
+  font-family: 'Fira Mono';
 }
 
 .about-subtitle {
   font-size: 1.25rem !important;
   font-weight: bolder;
   margin-bottom: 0.9rem;
+  font-family: 'Fira Mono';
 }
 
 .about-text {
@@ -22,6 +24,7 @@
   font-weight: normal;
   margin-bottom: 0.9rem;
   text-align: justify !important;
+  font-family: 'Roboto';
 }
 
 @media only screen and (max-width: 768px) {

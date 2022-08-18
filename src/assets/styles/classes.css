@@ -21,6 +21,14 @@
   /* margin-bottom: 3rem; */
 }
 
+.subtitle {
+  font-family: 'Fira Mono';
+}
+
+.card-body{
+  color:black;
+}
+
 @media only screen and (max-width: 768px) {
   .carousel-size-control {
     padding-top: 2.5rem;
