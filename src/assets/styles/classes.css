@@ -25,8 +25,16 @@
   font-family: 'Fira Mono';
 }
 
-.card-body{
-  color:black;
+.card-body {
+  color: black;
+}
+
+.card-title {
+  width: 80%;
+}
+
+.card-text {
+  margin-top: 1rem;
 }
 
 @media only screen and (max-width: 768px) {

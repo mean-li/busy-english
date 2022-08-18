@@ -52,7 +52,7 @@ function Classes() {
               <div className="card rounded-card p-5 d-flex flex-column">
                 <div className="card-body gap-3 d-flex justify-content-start flex-column">
                   <div className="d-flex align-items-center justify-content-center">
-                    <h1 className="card-title about-title text text-center position-absolute">
+                    <h1 className="card-title be-text about-title text text-center position-absolute">
                       Regular Conversation
                     </h1>
                   </div>
@@ -66,7 +66,7 @@ function Classes() {
                 <div className="card-body d-flex justify-content-center flex-column gap-4 button-area">
                   <button className="btn btn-light-secondary custom-button-2">
                     <a
-                      href="#about"
+                      href="#classes"
                       aria-current="page"
                       className="button-link"
                     >
@@ -93,7 +93,7 @@ function Classes() {
                 <div className="card-body d-flex justify-content-center flex-column gap-4 button-area">
                   <button className="btn btn-light-secondary custom-button-2">
                     <a
-                      href="#about"
+                      href="#classes"
                       aria-current="page"
                       className="button-link"
                     >
@@ -120,7 +120,7 @@ function Classes() {
                 <div className="card-body d-flex justify-content-center flex-column gap-4 button-area">
                   <button className="btn btn-light-secondary custom-button-2">
                     <a
-                      href="#about"
+                      href="#classes"
                       aria-current="page"
                       className="button-link"
                     >
@@ -147,7 +147,7 @@ function Classes() {
                 <div className="card-body d-flex justify-content-center flex-column gap-4 button-area">
                   <button className="btn btn-light-secondary custom-button-2">
                     <a
-                      href="#about"
+                      href="#classes"
                       aria-current="page"
                       className="button-link"
                     >

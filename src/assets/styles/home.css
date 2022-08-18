@@ -23,7 +23,7 @@
   font-family: 'Fira Mono';
   font-style: normal;
   font-size: 2.5rem !important;
-  font-weight: 200 !important;
+  font-weight: 500;
   margin-bottom: 1.6rem !important;
   line-height: 4rem;
   left: 49.063rem !important;
@@ -122,7 +122,7 @@
   }
   .title {
     font-size: 1.875rem !important;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1em;
   }
   .subtitle {

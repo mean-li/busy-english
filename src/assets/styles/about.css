@@ -4,10 +4,9 @@
 }
 
 .about-title {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 2.75rem;
   line-height: 1.1em;
-  text-align: justify !important;
   margin-bottom: 0.9rem;
   font-family: 'Fira Mono';
 }
