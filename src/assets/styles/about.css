@@ -20,7 +20,6 @@
 .about-text {
   font-size: 1.25rem !important;
   font-weight: normal;
-  text-align: justify;
   margin-bottom: 0.9rem;
   text-align: justify !important;
 }
@@ -32,5 +31,9 @@
   .about-title {
     font-weight: 600;
     font-size: 1.875rem;
+    text-align: center !important;
+  }
+  .about-subtitle {
+    text-align: center !important;
   }
 }

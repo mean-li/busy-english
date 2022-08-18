@@ -10,7 +10,7 @@ function Contact() {
     <>
       <section
         id="contact"
-        className="bg-white text-dark p-5 d-flex caixa-responsiva align-items-center"
+        className="bg-white rounded-container text-dark p-5 d-flex caixa-responsiva align-items-center"
       >
         {/* a div abaixo é da caixa sem background */}
         <div className="d-flex align-items-center justify-content-center container container-responsivo gap-4">
@@ -87,6 +87,7 @@ function Contact() {
           </div>
         </div>
       </section>
+      <section className="divider-2"></section>
     </>
   )
 }

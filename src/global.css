@@ -23,7 +23,7 @@ a {
 }
 
 .divider-2 {
-  margin: 7rem;
+  margin: 6rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -31,6 +31,6 @@ a {
     margin: 5rem;
   }
   .divider-2 {
-    margin: 2.5rem;
+    margin: 2rem;
   }
 }
