@@ -80,8 +80,8 @@
 
   .header.active {
     border-radius: 0;
-    border-bottom-right-radius: 2.25rem;
-    border-bottom-left-radius: 2.25rem;
+    /* border-bottom-right-radius: 2.25rem;
+    border-bottom-left-radius: 2.25rem; */
     padding-right: 2rem;
     padding-left: 2rem;
     margin-left: 0.1rem;
@@ -127,9 +127,10 @@
     position: absolute;
     flex-direction: column;
     width: 100vw;
-    margin-left: -2rem;
+    margin-left: -2.026rem;
     height: calc(100vh - 2rem);
     background-color: white;
+    padding-top: 2rem;
   }
   .navigation-menu li {
     text-align: center;
