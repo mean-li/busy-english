@@ -5,8 +5,7 @@
 }
 
 body {
-  background-color:  #B4D0FB;
-
+  background-color: #b4d0fb;
 }
 
 ul {
@@ -20,11 +19,18 @@ a {
 /* Custom */
 /* divider */
 .divider {
-  margin: 11.7rem;
+  margin: 14rem;
+}
+
+.divider-2 {
+  margin: 7rem;
 }
 
 @media only screen and (max-width: 768px) {
   .divider {
-    margin: 4.8rem;
+    margin: 5rem;
+  }
+  .divider-2 {
+    margin: 2.5rem;
   }
 }

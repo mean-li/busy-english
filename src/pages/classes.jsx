@@ -13,7 +13,7 @@ function Classes() {
       <section id="classes">
         <div
           id="carouselExampleIndicators"
-          className="carousel slide"
+          className="carousel slide carousel-size-control"
           data-bs-ride="true"
         >
           <div className="carousel-indicators">

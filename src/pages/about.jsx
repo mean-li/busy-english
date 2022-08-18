@@ -5,7 +5,7 @@ function About() {
     <>
       <section
         id="about"
-        className="bg-red-white caixa-responsiva text-dark p-5 d-flex"
+        className="bg-light caixa-responsiva text-dark p-5 d-flex"
       >
         {/* a div abaixo é da caixa sem background */}
         <div className="container container-responsivo d-flex align-items-center justify-content-center flex-column">

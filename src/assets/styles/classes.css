@@ -1,34 +1,61 @@
+.carousel-size-control {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .carousel-container {
   margin: auto;
   width: 55%;
-  height: 53vh;
+  /* height: 53vh; */
+}
+
+.carousel-indicators {
+  margin: 0;
 }
 
 .rounded-card {
   border-radius: 6.75rem;
-  margin-top: 2.5rem;
-  margin-bottom: 3rem;
+  /* margin-top: 2.5rem; */
+  /* margin-bottom: 3rem; */
 }
 
 @media only screen and (max-width: 768px) {
+  .carousel-size-control {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
   .carousel-container {
     margin: auto;
     width: 97vw;
-    height: 50vh;
+    /* min-height: 60vh;
+    max-height: 55vh; */
+    /* height: 57vh; */
   }
 
   .carousel-indicators {
-    margin-bottom: 2rem;
+    margin-bottom: 0.25rem;
   }
 
   .carousel-control-prev {
     align-items: end;
-    margin-bottom: 1.65rem;
+    /* margin-bottom: 1.65rem; */
+  }
+  .carousel-control-prev-icon {
+    align-items: end;
+    /* margin-bottom: 1.65rem; */
   }
 
   .carousel-control-next {
     align-items: end;
-    margin-bottom: 1.65rem;
+  }
+  .carousel-control-next-icon {
+    align-items: end;
+    /* margin-bottom: 1.65rem; */
   }
 
   .rounded-card {
