@@ -19,7 +19,7 @@ function About() {
                 Meu histórico
               </h2>
               <h3 className="about-text text text-start lh-sm">
-                Eu sou um estudante de economia que adora ensinar e aprender
+                Eu sou uma estudante de economia que adora ensinar e aprender
                 idiomas! Eu estudo inglês desde os 9 anos de idade, foi paixão à
                 primeira vista! Fiz o First Cambridge Certificate - um teste
                 internacional que nivela seu inglês - e meu nível de conversação
