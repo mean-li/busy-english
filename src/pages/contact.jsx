@@ -17,7 +17,7 @@ function Contact() {
           {/* a div abaixo é dos textos e botão */}
           <div className="d-flex flex-column me-3 right-responsive-fix text-area">
             <div className="d-flex justify-content-start flex-column">
-              <h1 className="about-title text text-start lh-sm position-absolute">
+              <h1 className="about-title text text-start lh-sm">
                 Tem interesse?
               </h1>
               <h2 className="about-subtitle text text-start lh-sm">
@@ -87,7 +87,6 @@ function Contact() {
           </div>
         </div>
       </section>
-      <section className="divider-2"></section>
     </>
   )
 }
