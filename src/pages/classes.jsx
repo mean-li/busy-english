@@ -52,7 +52,7 @@ function Classes() {
               <div className="card rounded-card p-5 d-flex flex-column">
                 <div className="card-body gap-3 d-flex justify-content-start flex-column">
                   <div className="d-flex align-items-center justify-content-center">
-                    <h1 className="card-title be-text about-title text text-center position-absolute">
+                    <h1 className="card-title be-text about-title text text-center">
                       Regular Conversation
                     </h1>
                   </div>
@@ -80,7 +80,7 @@ function Classes() {
               <div className="card rounded-card p-5 d-flex flex-column">
                 <div className="card-body gap-3 d-flex justify-content-start flex-column">
                   <div className="d-flex align-items-center justify-content-center">
-                    <h1 className="card-title about-title text text-center position-absolute">
+                    <h1 className="card-title about-title text text-center">
                       Business English
                     </h1>
                   </div>
@@ -107,7 +107,7 @@ function Classes() {
               <div className="card rounded-card p-5 d-flex flex-column">
                 <div className="card-body gap-3 d-flex justify-content-start flex-column">
                   <div className="d-flex align-items-center justify-content-center">
-                    <h1 className="card-title about-title text text-center position-absolute">
+                    <h1 className="card-title about-title text text-center">
                       Travel English
                     </h1>
                   </div>
@@ -134,7 +134,7 @@ function Classes() {
               <div className="card rounded-card p-5 d-flex flex-column">
                 <div className="card-body gap-3 d-flex justify-content-start flex-column">
                   <div className="d-flex align-items-center justify-content-center">
-                    <h1 className="card-title about-title text text-center position-absolute">
+                    <h1 className="card-title about-title text text-center">
                       Proficiency Test
                     </h1>
                   </div>
