@@ -1,3 +1,11 @@
+#about {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10vh;
+}
+
 .container {
   margin: auto;
   width: 70%;
@@ -27,6 +35,14 @@
 }
 
 @media only screen and (max-width: 768px) {
+#about {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10vh;
+}
+
   .p-5 {
     padding: 0 !important;
   }

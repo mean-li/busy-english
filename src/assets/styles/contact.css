@@ -1,8 +1,16 @@
+#contact {
+    margin-bottom: 5vh;
+}
+
 left-responsive-fix {
   margin-left: 1rem;
 }
 
 @media only screen and (max-width: 768px) {
+#contact {
+    margin-bottom: 5vh;
+}
+
   right-responsive-fix {
     margin-right: 0 !important;
   }
