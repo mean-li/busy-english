@@ -99,6 +99,14 @@
   flex-flow: row nowrap;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .home-image-container {
+    margin-right: 0 !important;
+  }
+  .home-image {
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .p-5 {
     padding: 1.5rem !important;

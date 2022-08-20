@@ -1,7 +1,23 @@
+import { useEffect, useState } from 'react'
 import NicoleImage from '../assets/images/Nicole_elipse.png'
+import RetangularNicoleImage from '../assets/images/retangular_nicole.jpeg'
 import '../assets/styles/home.css'
 import CallButton from '../components/CallButton'
+
 function Home() {
+  const [isDesktop, setDesktop] = useState(
+    window.innerWidth > 768 && window.innerWidth < 1023
+  )
+
+  const updateMedia = () => {
+    setDesktop(window.innerWidth > 768 && window.innerWidth < 1023)
+  }
+
+  useEffect(() => {
+    window.addEventListener('resize', updateMedia)
+    return () => window.removeEventListener('resize', updateMedia)
+  })
+
   return (
     <>
       <section
@@ -12,7 +28,19 @@ function Home() {
         <div className="d-flex align-items-center justify-content-center container container-responsivo">
           {/* a div abaixo é da imagem */}
           <div className="me-3 home-image-container">
-            <img src={NicoleImage} alt="Nicole Tongu" className="home-image" />
+            {isDesktop ? (
+              <img
+                src={RetangularNicoleImage}
+                alt="Nicole Tongu"
+                className="home-image"
+              />
+            ) : (
+              <img
+                src={NicoleImage}
+                alt="Nicole Tongu"
+                className="home-image"
+              />
+            )}
           </div>
 
           {/* a div abaixo é dos textos e botão */}
