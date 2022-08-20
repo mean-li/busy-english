@@ -6,6 +6,7 @@
   padding-left: 5.5rem;
   padding-right: 5.5rem;
   border-radius: 6.25rem;
+  transition: 250ms;
 }
 
 .header.active {
