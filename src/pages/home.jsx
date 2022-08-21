@@ -25,7 +25,7 @@ function Home() {
         className="bg-light text-dark p-5 d-flex caixa-responsiva align-items-center rounded-container"
       >
         {/* a div abaixo é da caixa sem background */}
-        <div className="d-flex align-items-center justify-content-center container container-responsivo">
+        <div className="d-flex align-items-center justify-content-center container container-responsivo home-container">
           {/* a div abaixo é da imagem */}
           <div className="me-3 home-image-container">
             {isDesktop ? (
@@ -46,7 +46,7 @@ function Home() {
           {/* a div abaixo é dos textos e botão */}
           <div className="d-flex flex-column ms-3 text-area">
             <div className="d-flex justify-content-start flex-column">
-              <h1 className="text text-start title">
+              <h1 className="text text-start title home-title">
                 English speaking classes
               </h1>
               <h2 className="text lh-sm subtitle">
