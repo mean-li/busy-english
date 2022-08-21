@@ -8,7 +8,9 @@ left-responsive-fix {
 
 @media only screen and (max-width: 768px) {
 #contact {
-    margin-bottom: 5vh;
+    padding-top: 15vh;
+    margin-bottom: 30vh;
+    height: 100vh;
 }
 
   right-responsive-fix {

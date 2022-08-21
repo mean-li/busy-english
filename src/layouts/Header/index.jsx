@@ -21,7 +21,7 @@ function Header() {
   return (
     <>
       <header
-        className={
+        className={isNavExpanded ? 'header active fixed-top bg-white' :
           navbar
             ? 'header active fixed-top bg-white'
             : 'header fixed-top bg-white'

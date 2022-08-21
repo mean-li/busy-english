@@ -26,7 +26,7 @@ function Classes() {
       <section id="classes">
         <div
           id="carouselExampleIndicators"
-          className="carousel slide carousel-size-control"
+          className={`carousel slide ${isDesktop ? "carousel-fade" : ""} carousel-size-control`}
           data-bs-ride="true"
         >
           <div className="carousel-indicators">
