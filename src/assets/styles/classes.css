@@ -15,7 +15,7 @@
 .carousel-container {
   margin: auto;
   width: 55%;
-  /* height: 53vh; */
+  height: 60vh;
 }
 
 .carousel-indicators {
@@ -44,12 +44,17 @@
   margin-top: 1rem;
 }
 
+.card .rounded-card .p-5 .d-flex .flex-column {
+  height: 60vh;
+}
+
 @media only screen and (max-width: 768px) {
   #classes {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50vh;
   }
 
   .carousel-size-control {
@@ -64,7 +69,7 @@
     width: 97vw;
     /* min-height: 60vh;
     max-height: 55vh; */
-    /* height: 57vh; */
+    height: 70vh;
   }
 
   .carousel-indicators {
