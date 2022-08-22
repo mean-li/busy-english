@@ -15,26 +15,26 @@
 * [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
 
 ## Descrição do Projeto
-O projeto em desenvolvimento é um site sobre aulas em inglês dadas pela professora Nicole Tongu, com o foco nas pronúncias e o público alvo se tem em pessoas com rotinas complicadas.
+Esse projeto é um site sobre aulas em inglês, dadas pela professora Nicole Tongu, focadas na conversação e pronúncia, tendo como público alvo pessoas com rotinas complicadas.
 
 ## Acesso ao Projeto
-Para executar o projeto Nicole Tongu será necessário instalar o [Git](https://git-scm.com) instalado e ter um editor de código que é utilizado, o [VSCode](https://code.visualstudio.com).
+Para executar o projeto será necessário instalar o [Git](https://git-scm.com) e ter um editor de código como o [VSCode](https://code.visualstudio.com).
 
-* [1º: Clone o repositório]
+* 1º Clone o repositório
   ```
   git clone https://github.com/mean-li/nicole-tongu.git
   ```
 
-* [2º: Acesse a pasta do projeto]
+* 2º Acesse a pasta do projeto
 
 
-* [3º: Instale as dependências]
+* 3º Instale as dependências
   ```
   npm install
   ```
 
 
-* [4º: Execute o projeto]
+* 4º Execute o projeto
   ```
   npm run dev
   ```
