@@ -6,7 +6,7 @@
 
 ## Índice 
 
-* [Título e Imagem de capa](#Título-e-Imagem-de-capa)
+* [Título](#Título-e-Imagem-de-capa)
 * [Badges](#badges)
 * [Índice](#índice)
 * [Descrição do Projeto](#descrição-do-projeto)
