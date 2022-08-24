@@ -1,5 +1,5 @@
 #contact {
-    margin-bottom: 5vh;
+  margin-bottom: 5vh;
 }
 
 left-responsive-fix {
@@ -7,16 +7,12 @@ left-responsive-fix {
 }
 
 @media only screen and (max-width: 768px) {
-#contact {
+  #contact {
     padding-top: 15vh;
     margin-bottom: 30vh;
     height: 100vh;
-}
-
-  right-responsive-fix {
-    margin-right: 0 !important;
   }
-  left-responsive-fix {
-    margin-left: 0 !important;
+  .text-area {
+    margin-right: 0 !important;
   }
 }
