@@ -3,9 +3,7 @@ import '../assets/styles/about.css'
 function About() {
   return (
     <>
-      <section
-        id="about"
-      >
+      <section id="about">
         <div className="bg-light rounded-container caixa-responsiva text-dark p-5 d-flex">
           {/* a div abaixo é da caixa sem background */}
           <div className="container container-responsivo d-flex align-items-center justify-content-center flex-column">
@@ -20,11 +18,11 @@ function About() {
                 </h2>
                 <h3 className="about-text text text-start lh-sm">
                   Eu sou uma estudante de economia que adora ensinar e aprender
-                  idiomas! Eu estudo inglês desde os 9 anos de idade, foi paixão à
-                  primeira vista! Fiz o First Cambridge Certificate - um teste
-                  internacional que nivela seu inglês - e meu nível de conversação
-                  era C1 (fluente); é por isso que gosto de ensinar habilidades de
-                  conversação!
+                  idiomas! Eu estudo inglês desde os 9 anos de idade, foi paixão
+                  à primeira vista! O First Cambridge Certificate - um teste
+                  internacional que nivela seu inglês - define meu nível de
+                  conversação como C1 (fluente); é por isso que gosto de ensinar
+                  habilidades de conversação!
                 </h3>
               </div>
             </div>

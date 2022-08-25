@@ -4,6 +4,7 @@ import Home from '../pages/home'
 import About from '../pages/about'
 import Contact from '../pages/contact'
 import Classes from '../pages/classes'
+import FAQ from '../pages/faq'
 
 function SiteRoutes() {
   return (
@@ -14,6 +15,7 @@ function SiteRoutes() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/classes" element={<Classes />} />
+        <Route path="/faq" element={<FAQ />} />
       </Routes>
     </Router>
   )

@@ -21,8 +21,10 @@ function Header() {
   return (
     <>
       <header
-        className={isNavExpanded ? 'header active fixed-top bg-white' :
-          navbar
+        className={
+          isNavExpanded
+            ? 'header active fixed-top bg-white'
+            : navbar
             ? 'header active fixed-top bg-white'
             : 'header fixed-top bg-white'
         }
@@ -56,7 +58,7 @@ function Header() {
               <ul className="nav justify-content-end gap-5">
                 <li className="nav-item responsive-nav-item">
                   <a
-                    href="#about"
+                    href="/#about"
                     className="link-secondary text-dark custom-font responsive-custom-font"
                     aria-current="page"
                     onClick={() => {
@@ -68,7 +70,7 @@ function Header() {
                 </li>
                 <li className="nav-item responsive-nav-item">
                   <a
-                    href="#classes"
+                    href="/#classes"
                     className="link-secondary text-dark custom-font responsive-custom-font"
                     aria-current="page"
                     onClick={() => {
@@ -80,7 +82,7 @@ function Header() {
                 </li>
                 <li className="nav-item responsive-nav-item">
                   <a
-                    href="#contact"
+                    href="/#contact"
                     className="link-secondary text-dark custom-font responsive-custom-font"
                     aria-current="page"
                     onClick={() => {

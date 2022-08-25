@@ -9,7 +9,7 @@ function Footer() {
       <div className="fix-margin"></div>
       <div className="footer-responsivo d-flex align-items-center justify-content-center gap-5 fix-spacing">
         <a
-          href="#contact"
+          href="/contact"
           className="footer-links nav-link link-secondary text-dark fw-semibold text-sm-center"
         >
           CONTATO
@@ -22,12 +22,21 @@ function Footer() {
         >
           AGENDE UMA LIGAÇÃO
         </a>
+
         <a
           href="/suportme"
           target="_blank"
           className="footer-links nav-link link-secondary text-dark fw-semibold text-sm-center"
         >
           CONTRIBUA
+        </a>
+
+        <a
+          href="/faq"
+          // target="_blank"
+          className="footer-links nav-link link-secondary text-dark fw-semibold text-sm-center"
+        >
+          FAQ
         </a>
       </div>
       <div className="footer-social d-flex align-items-center justify-content-center gap-4 fix-spacing">
