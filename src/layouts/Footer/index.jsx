@@ -24,20 +24,20 @@ function Footer() {
         </a>
 
         <a
-          href="/suportme"
+          href="https://www.buymeacoffee.com/nitongu"
           target="_blank"
           className="footer-links nav-link link-secondary text-dark fw-semibold text-sm-center"
         >
           CONTRIBUA
         </a>
 
-        {/* <a
+        <a
           href="/faq"
           // target="_blank"
           className="footer-links nav-link link-secondary text-dark fw-semibold text-sm-center"
         >
           FAQ
-        </a> */}
+        </a>
       </div>
       <div className="footer-social d-flex align-items-center justify-content-center gap-4 fix-spacing">
         <a href="https://www.instagram.com/_colapse/" target="_blank">
