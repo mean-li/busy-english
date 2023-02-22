@@ -8,11 +8,8 @@ import '../assets/styles/contact.css'
 function Contact() {
   return (
     <>
-      <section
-        id="contact">
-
-        <div className="bg-white rounded-container text-dark p-5 d-flex caixa-responsiva align-items-center"
-        >
+      <section id="contact">
+        <div className="bg-white rounded-container text-dark p-5 d-flex caixa-responsiva align-items-center">
           {/* a div abaixo é da caixa sem background */}
           <div className="d-flex align-items-center justify-content-center container container-responsivo gap-4">
             {/* a div abaixo é dos textos e botão */}
@@ -32,11 +29,11 @@ function Contact() {
               <div className="d-flex justify-content-center flex-column gap-3 button-area">
                 <button className="custom-button-1 btn btn-secondary">
                   <a
-                    href="https://api.whatsapp.com/send?phone=+5511996873224&text=Hi Nicole!"
+                    href="https://api.whatsapp.com/send?phone=+5511998758038&text=Hi Nicole!"
                     className="button-link"
                     target="_blank"
                   >
-                    Me manda uma mensagem <BsWhatsapp size="21" />
+                    Me mande uma mensagem <BsWhatsapp size="21" />
                   </a>
                 </button>
                 <button className="btn btn-light-secondary custom-button-2">
@@ -80,13 +77,14 @@ function Contact() {
                   />
                 </div>
                 <h2 className="about-text text text-start lh-sm">
-                  Se você quiser uma plataforma que não está listada acima, entre
-                  em contato e podemos checar se é possível utilizá-la em nossa
-                  aula.
+                  Se você quiser uma plataforma que não está listada acima,
+                  entre em contato e podemos checar se é possível utilizá-la em
+                  nossa aula.
                 </h2>
               </div>
             </div>
-          </div></div>
+          </div>
+        </div>
       </section>
     </>
   )

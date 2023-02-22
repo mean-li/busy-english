@@ -48,7 +48,7 @@ function Footer() {
             color="#000000"
           />
         </a>
-        <a href="tel:+5511996873224" target="_blank">
+        <a href="tel:+5511998758038" target="_blank">
           <BsTelephone
             className="text-dark link-secondary"
             alt="logo twitter"
