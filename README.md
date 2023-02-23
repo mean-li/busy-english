@@ -50,5 +50,5 @@ Para executar o projeto será necessário instalar o [Git](https://git-scm.com) 
   
 ## Autores
 
- | [<img src="https://avatars.githubusercontent.com/u/80918297?v=4" width=115><br><sub>Pedro Targa</sub>]( https://github.com/PedroTarga) |  [<img src="https://avatars.githubusercontent.com/u/84181192?v=4" width=115><br><sub>Andressa Varela</sub>](https://github.com/andressavarela) |  [<img src="https://avatars.githubusercontent.com/u/109041604?s=400&u=9dcf90eaeb7a85572ee30b63e0147b449ad8f562&v=4" width=115><br><sub>Livia Caroline</sub>]( https://github.com/liviacs) |
+ | [<img src="https://avatars.githubusercontent.com/u/80918297?v=4" width=115><br><sub>Emily May</sub>]( https://github.com/EmilyMaying) |  [<img src="https://avatars.githubusercontent.com/u/84181192?v=4" width=115><br><sub>Andressa Varela</sub>](https://github.com/andressavarela) |  [<img src="https://avatars.githubusercontent.com/u/109041604?s=400&u=9dcf90eaeb7a85572ee30b63e0147b449ad8f562&v=4" width=115><br><sub>Livia Caroline</sub>]( https://github.com/liviacs) |
 | :---: | :---: | :---: |
