@@ -76,7 +76,7 @@ function Footer() {
           >
             mean.li
           </a>{' '}
-          | 2022
+          | 2023
         </p>
       </div>
     </div>
